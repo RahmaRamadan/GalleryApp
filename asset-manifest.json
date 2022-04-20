@@ -1,7 +1,7 @@
 {
   "main.css": "/GalleryApp/static/css/main.10846593.chunk.css",
-  "main.js": "/GalleryApp/static/js/main.3a3e4827.chunk.js",
-  "main.js.map": "/GalleryApp/static/js/main.3a3e4827.chunk.js.map",
+  "main.js": "/GalleryApp/static/js/main.133324ea.chunk.js",
+  "main.js.map": "/GalleryApp/static/js/main.133324ea.chunk.js.map",
   "static/css/1.2069b27e.chunk.css": "/GalleryApp/static/css/1.2069b27e.chunk.css",
   "static/js/1.f0c94a44.chunk.js": "/GalleryApp/static/js/1.f0c94a44.chunk.js",
   "static/js/1.f0c94a44.chunk.js.map": "/GalleryApp/static/js/1.f0c94a44.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/css/main.10846593.chunk.css.map": "/GalleryApp/static/css/main.10846593.chunk.css.map",
   "static/css/1.2069b27e.chunk.css.map": "/GalleryApp/static/css/1.2069b27e.chunk.css.map",
   "index.html": "/GalleryApp/index.html",
-  "precache-manifest.898edc46c77cdff1ade77ff5e1564991.js": "/GalleryApp/precache-manifest.898edc46c77cdff1ade77ff5e1564991.js",
+  "precache-manifest.fc0bbcbba68f31d34b1a86a08d733324.js": "/GalleryApp/precache-manifest.fc0bbcbba68f31d34b1a86a08d733324.js",
   "service-worker.js": "/GalleryApp/service-worker.js"
 }
