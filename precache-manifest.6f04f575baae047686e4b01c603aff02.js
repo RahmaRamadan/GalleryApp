@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6e8b75fc9b186de05b8e",
-    "url": "/GalleryApp/static/css/main.10846593.chunk.css"
+    "revision": "3c5ac6c30cc199835d20",
+    "url": "/GalleryApp/static/css/main.7fa8bb00.chunk.css"
   },
   {
-    "revision": "6e8b75fc9b186de05b8e",
-    "url": "/GalleryApp/static/js/main.6e8b75fc.chunk.js"
+    "revision": "3c5ac6c30cc199835d20",
+    "url": "/GalleryApp/static/js/main.3c5ac6c3.chunk.js"
   },
   {
     "revision": "f0c94a440c9aa679f40d",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/GalleryApp/static/media/zoom.96d166e0.png"
   },
   {
-    "revision": "fa0184daf9e0f6050cd03b2fac0d095b",
+    "revision": "ae93fd93dd700dd46af6e05ed36870fe",
     "url": "/GalleryApp/index.html"
   }
 ];
