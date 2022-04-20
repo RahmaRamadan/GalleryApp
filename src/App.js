@@ -1,11 +1,9 @@
-import './App.css';
-import React from 'react';
-import Gallery from './pages/gallery';
+import "./App.css";
+import React from "react";
+import Gallery from "./pages/gallery";
 
 function App() {
-  return (
-    <Gallery/>
-  );
+  return <Gallery />;
 }
 
 export default App;

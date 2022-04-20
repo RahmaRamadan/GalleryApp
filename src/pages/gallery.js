@@ -10,8 +10,7 @@ export default function Gallery() {
     dispatch(getPhotosAction());
   }, []);
 
-  console.log("taaaaags in : ", photos);
-
+  // console.log("taaaaags in : ", photos);
   return (
     <div className="container-fluid">
       <div className="row">
