@@ -5,24 +5,23 @@ import "./box.css";
 import Modal from "./modal/modal";
 import './popup/popup.css'
 export default function Box(props) {
-
+  // declare states
   let [photoClicked, setPhoto] = useState();
   let [counterClicked, setCounter] = useState();
-  let [showModal, setShowModal] = useState(false);
+  let [modelVisible, setModalVisible] = useState(false);
 
-
-  const resetCounter = (photoState, index) => {
-    setShowModal(true);
+  // function to initialize states on click
+  const setPhotoStates = (photoState, index) => {
+    setModalVisible(true);
     setPhoto(photoState);
     setCounter(index);
-    console.log("hello from clickedd")
+    // console.log("hello from clickedd")
   }
   return (
     <>
-
       <div className="container">
         <div className="row">
-
+          {/* loop over props array to list all photos on gallery page */}
           {props.photos.map((photo, index) => {
             return (
               <div
@@ -37,7 +36,8 @@ export default function Box(props) {
                     width={250}
                   />
 
-                  <button className="hidden_img" onClick={() => resetCounter(photo, index)}>
+                  {/* button to set photo states on click */}
+                  <button className="hidden_img" onClick={() => setPhotoStates(photo, index)}>
                     <img
                       src={icon}
                       alt="zoom icon"
@@ -51,11 +51,13 @@ export default function Box(props) {
               </div>
             );
           })}
-          {showModal &&
+          {/* if modal visible then show popup slider */}
+          {modelVisible &&
             <div className="overlay">
               <div className="popup">
                 <a className="close" href="/GalleryApp">&times;</a>
                 <div className="container">
+                  {/* pass props to modal component to fill the slider */}
                   <Modal photos={props.photos} init_counter={counterClicked} init_photo={photoClicked} />
                 </div>
               </div>
