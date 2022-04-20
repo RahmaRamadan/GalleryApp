@@ -50,7 +50,7 @@ export default function Box(props) {
           })}
            <div id="popup1" className="overlay">
                   <div className="popup">
-                    <a className="close" href="/">&times;</a>
+                    <a className="close" href="#">&times;</a>
                     <div className="container">
                       <Modal photos={props.photos} init_counter={counterClicked} init_photo={photoClicked} />
                     </div>
