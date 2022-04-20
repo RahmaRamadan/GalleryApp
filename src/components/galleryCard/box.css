@@ -17,7 +17,7 @@
 
 .container-one:hover{
     transform: scale(1.5);
-    width: 70%;    
+    width: 60%;    
     /* zoom on hover */
     
 }
@@ -31,4 +31,6 @@
     top:50%;
     left:50%;
     display:none;
+    cursor: zoom-in;
 }
+
