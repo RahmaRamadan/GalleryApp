@@ -34,8 +34,7 @@ export default function Modal(props) {
 
     return (
         photo !== undefined ? (
-            <div className="container-fluid">
-                <div aria-label="Newest Photos" className="row">
+                <div className="row">
                     <h2 className="paragraph ">{photo.name}</h2>
 
                     <div className="carousel" data-carousel>
@@ -64,10 +63,11 @@ export default function Modal(props) {
                         </ul>
 
                     </div>
+                    <div className="container">
                     <div className="paragraph ">{`${counter+1}/${photos.length}`}</div>
-
+                    </div>
                 </div>
-            </div>
+          
         ) : null
     );
 }
